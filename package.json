@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Aman772005/Backend#readme",
+  "bugs": {
+    "url": "https://github.com/Aman772005/Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aman772005/Backend.git"
+  },
+  "license": "ISC",
+  "author": "Aman",
+  "type": "module",
+  "main": "math.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
