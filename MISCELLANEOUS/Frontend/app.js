@@ -13,15 +13,29 @@
 
 
 // Constructors - does not return anything & start with capital 
-function Person(name , age){
-    this.name = name ;
-    this.age = age ;
-    console.log(this);
+// function Person(name , age){
+//     this.name = name ;
+//     this.age = age ;
+//     console.log(this);
+//     }
+
+//     Person.prototype.talk = function(){
+//         console.log(`hii , my name is ${this.name}`);
+//     };
+
+//     let p1 = new Person("aman",20);
+//     let p2 = new Person("sachin",22);
+
+
+class Person{
+    constructor(name,age){
+        this.name = name ;
+        this.age = age;
     }
+    talk(){
+        console.log(`Hi , my name is ${this.name}`);
+    }
+}
 
-    Person.prototype.talk = function(){
-        console.log(`hii , my name is ${this.name}`);
-    };
-
-    let p1 = new Person("aman",20);
-    let p2 = new Person("sachin",22);
+let p1 = new Person("aman",20);
+let p2 = new Person("sachin",22);
