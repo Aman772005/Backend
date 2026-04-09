@@ -27,6 +27,7 @@ app.get("/ig/:username",(req,res) =>{
 app.get("/rolldice",(req,res)=>{
     let diceval = Math.floor(Math.random()*6)+1 ;
     res.render("rolldice" , {diceval})
+    console.log("roll dice")
 })
 
 app.listen(port,()=>{
